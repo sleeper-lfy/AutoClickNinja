@@ -13,13 +13,12 @@ AutoClickNinja 是一款后台静默运行的鼠标连点工具，支持：
 
 📦 快速开始
 安装依赖
-bash
 pip install pywin32 keyboard pygetwindow
+
 运行程序
-bash
 python src/main.py
+
 打包成EXE
-bash
 pyinstaller --onefile --windowed --icon=assets/icon.ico src/main.py
 🎮 使用指南
 选择目标窗口
@@ -42,15 +41,6 @@ pyinstaller --onefile --windowed --icon=assets/icon.ico src/main.py
 
 状态栏实时显示运行状态
 
-⚙️ 技术实现
-图表
-代码
-
-
-
-
-
-
 关键技术：
 
 win32gui.SendMessage - 后台消息模拟点击
@@ -64,9 +54,3 @@ MIT License - 自由修改和分发，需保留原始许可声明
 
 🤝 贡献指南
 欢迎提交PR！建议改进方向：
-
-添加宏录制功能
-
-支持更多点击模式（双击/右键等）
-
-跨平台兼容性改进
