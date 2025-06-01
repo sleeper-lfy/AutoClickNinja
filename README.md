@@ -20,6 +20,7 @@ python src/main.py
 
 打包成EXE
 pyinstaller --onefile --windowed --icon=assets/icon.ico src/main.py
+
 🎮 使用指南
 选择目标窗口
 
